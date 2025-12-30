@@ -17,5 +17,3 @@ echo greet("Vineet");
 
 echo ("Branch B1");
 echo "Branch B2 - new";
-
-echo "Branch Git Hub B2";
