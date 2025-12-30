@@ -13,3 +13,5 @@ function greet($name) {
 }
 
 echo greet("Vineet");
+
+echo "B2";
