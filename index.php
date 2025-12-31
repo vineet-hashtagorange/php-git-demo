@@ -20,3 +20,9 @@ echo "B2";
 echo "Branch B2 - new";
 
 echo "Branch Git Hub B2 ";
+
+function greet2($name) {
+    return "Hello, $name!";
+}
+
+echo greet2("Vineet");
