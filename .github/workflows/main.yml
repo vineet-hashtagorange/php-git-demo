@@ -15,9 +15,9 @@ jobs:
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.FTP_HOST }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        server: 184.168.126.180
+        username: Devorange
+        password: 8jBgh6wL7QkC4TCS
         server-dir: /public_html/
         exclude: |
           **/.git*
