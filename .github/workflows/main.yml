@@ -18,4 +18,11 @@ jobs:
         server: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /public_html/  # Change this to your target directory
+        server-dir: /public_html/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/.github/**
+          **/node_modules/**
+          **/.env
+          **/.gitignore
