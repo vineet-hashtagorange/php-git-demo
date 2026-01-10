@@ -16,7 +16,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: 184.168.126.180
-        username: Devorange
+        username: devorange
         password: 8jBgh6wL7QkC4TCS
         server-dir: /public_html/
         exclude: |
