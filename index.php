@@ -31,4 +31,4 @@ echo '<br>';
 
 echo ('Vineet - B1 Branch - for setting up github Action for CI pipeline');
 
-echo "change in B1 Branch";
+echo "change in B1 Branch - main";
