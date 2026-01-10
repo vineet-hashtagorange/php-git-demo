@@ -1,11 +1,25 @@
+name: CI/CD Pipeline
+
 on:
   push:
-    branches:
-    - main
-    - release/*
-
-
-on:
+    branches: [ main ]
   pull_request:
-    branches:
-    - main
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+    
+    - name: Run tests
+      run: |
+        echo "Running tests..."
+        # Add your test commands here
